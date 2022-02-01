@@ -10,20 +10,6 @@ import tkinter
 from tkinter import messagebox
 
 def main():
-    '''
-    with open(os.path.join(sys.path[0], "Printers.txt"), "r") as file_printers:
-        file_data = file_printers.read()
-        file_splitted_lines = file_data.split("\n")
-    for i in file_splitted_lines:
-        if i.split(": ")[0] == "MFC-J5330DW":
-            print(get_html_brother_pass(i.split(": ")[1]))
-        elif i.split(": ")[0] == "WF-M5799":
-            print(get_html_epson(i.split(": ")[1]))
-        elif i.split(": ")[0] == "MFC-L2710DN" or i.split(": ")[0] == "MFC-L5750DW" or i.split(": ")[0] == "MFC-8950DW":
-            print(get_html_brother(i.split(": ")[1]))
-        else:
-            print(get_html_samsung(i.split(": ")[1]))
-    '''
     file_printers = open(os.path.join(sys.path[0], "Printers.csv"), "r")
     Lines = file_printers.readlines()
     new_list = ['#,Model,Serial,IP Adress,Supply Date,Begin Count,Last Count,Count,Total Pages\n']
@@ -114,5 +100,3 @@ def get_html_epson(ip_adress):
 
 if __name__ == "__main__":
     main()
-#get_html_brother('10.1.1.223')
-#get_count_epson('10.1.1.122')
