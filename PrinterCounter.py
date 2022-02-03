@@ -17,15 +17,19 @@ def main():
     for line in Lines[1:]:
         line_list = line.split(',')
         print(f'Calculating Model: {line_list[1]}...')
-        line_list[6] = line_list[7]
+        if line_list[7] != 'N/A':
+            line_list[6] = line_list[7]
         if ping(line_list[1]):
-            line_list[7] = get_count(line_list[3], line_list[1] )
+            line_list[7] = get_count(line_list[3], line_list[1])
+            line_list[8] = str(int(line_list[7]) - int(line_list[6])) + '\n'
+            new_list.append(','.join(line_list))
         else:
             print(f"No connection with {line_list[3]}")
-            line_list[7] = 0
-            continue
-        line_list[8] = str(int(line_list[7]) - int(line_list[6])) + '\n'
-        new_list.append(','.join(line_list))
+            line_list[7] = 'N/A'
+            line_list[8] = 'N/A' + '\n'
+            new_list.append(','.join(line_list))
+            #continue
+
         print(f'Finished Model: {line_list[1]}...')
     file_printers.close()
     file = open(os.path.join(sys.path[0], "Printers.csv"), 'w')
