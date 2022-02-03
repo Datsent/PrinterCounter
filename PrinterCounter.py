@@ -1,3 +1,4 @@
+from ping3 import ping
 import urllib.request
 import ssl
 from selenium import webdriver
@@ -17,12 +18,12 @@ def main():
         line_list = line.split(',')
         print(f'Calculating Model: {line_list[1]}...')
         line_list[6] = line_list[7]
-        try:
+        if ping(line_list[1]):
             line_list[7] = get_count(line_list[3], line_list[1] )
-
-        except BaseException:
+        else:
             print(f"No connection with {line_list[3]}")
             line_list[7] = 0
+            continue
         line_list[8] = str(int(line_list[7]) - int(line_list[6])) + '\n'
         new_list.append(','.join(line_list))
         print(f'Finished Model: {line_list[1]}...')
