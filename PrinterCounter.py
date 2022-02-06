@@ -33,12 +33,13 @@ def main():
         line_list[6] = line_list[7]
         try:
             line_list[7] = get_count(line_list[3], line_list[1] )
-
+            line_list[8] = str(int(line_list[7]) - int(line_list[6])) + '\n'
+            new_list.append(','.join(line_list))
         except BaseException:
             print(f"No connection with {line_list[3]}")
-            line_list[7] = 0
-        line_list[8] = str(int(line_list[7]) - int(line_list[6])) + '\n'
-        new_list.append(','.join(line_list))
+            line_list[7] = 'N/A'
+            line_list[8] = 'N/A\n'
+            new_list.append(','.join(line_list))
         print(f'Finished Model: {line_list[1]}...')
     file_printers.close()
     file = open(os.path.join(sys.path[0], "Printers.csv"), 'w')
@@ -69,7 +70,7 @@ def get_html_brother (ip_adress):
 def get_html_brother_pass(ip_adress):
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
-    WebDriver = webdriver.Chrome(options=options)
+    WebDriver = webdriver.Chrome()      #options=options
     WebDriver.get("http://%s/general/status.html" %ip_adress)
     WebDriver.find_element(By.ID,"LogBox").send_keys("initpass")
     WebDriver.find_element(By.ID, "LogBox").send_keys(Keys.RETURN)
