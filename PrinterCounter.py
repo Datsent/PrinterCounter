@@ -46,6 +46,8 @@ def main():
     file = open(os.path.join(sys.path[0], f"Printers_{str(date.today())}.csv"), 'w')
     file.write(''.join(new_list))
     file.close()
+    file = open(os.path.join(sys.path[0], "Printers.csv"), 'w')
+    file.write(''.join(new_list))
     print('FINISHED')
 
 def get_count(ip_adress, model):
@@ -71,7 +73,7 @@ def get_html_brother (ip_adress):
 def get_html_brother_pass(ip_adress):
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
-    WebDriver = webdriver.Chrome()      #options=options
+    WebDriver = webdriver.Chrome(options=options)      #options=options
     WebDriver.get("http://%s/general/status.html" %ip_adress)
     WebDriver.find_element(By.ID,"LogBox").send_keys("initpass")
     WebDriver.find_element(By.ID, "LogBox").send_keys(Keys.RETURN)
