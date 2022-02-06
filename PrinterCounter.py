@@ -48,6 +48,7 @@ def main():
     file.close()
     file = open(os.path.join(sys.path[0], "Printers.csv"), 'w')
     file.write(''.join(new_list))
+    file.close()
     print('FINISHED')
 
 def get_count(ip_adress, model):
