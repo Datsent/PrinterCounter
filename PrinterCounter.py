@@ -43,7 +43,7 @@ def main():
             new_list.append(','.join(line_list))
         print(f'Finished Model: {line_list[1]}...')
     file_printers.close()
-    file = open(os.path.join(sys.path[0], f"Printers_{str(date.today())}.csv"), 'w')
+    file = open(os.path.join(sys.path[0], f"Archive\Printers_{str(date.today())}.csv"), 'w')
     file.write(''.join(new_list))
     file.close()
     file = open(os.path.join(sys.path[0], "Printers.csv"), 'w')
