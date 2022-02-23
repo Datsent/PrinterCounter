@@ -3,6 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.common.keys import Keys
 def brother(ip_adress):
+    '''
+    Get Data from Brother printers by using 'urllib.request'. If site have Authorization, will call function to get Data with Authorization.
+    '''
     my_request = urllib.request.urlopen("http://%s/general/information.html?kind=item" % ip_adress)
     my_HTML = my_request.read().decode()
     if 'Counter' in my_HTML:
@@ -14,6 +17,9 @@ def brother(ip_adress):
         return get_html_brother_pass(ip_adress)
 
 def get_html_brother_pass(ip_adress):
+    '''
+    Function to get Data with Authorization.
+    '''
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     WebDriver = webdriver.Chrome(options=options)      #options=options

@@ -3,12 +3,18 @@ from Utils import *
 from Counter import get_count
 
 def read_data (path):
+    '''
+    Get data from file to list.
+    '''
     file_printers = open(os.path.join(sys.path[0], path), "r")
     Lines = file_printers.readlines()
     file_printers.close()
     return Lines
 
 def create_new_data(Lines):
+    '''
+    Create new file with collected data from printers.
+    '''
     new_list = ['#,Model,Serial,IP Adress,Supply Date,Begin Count,Last Count,Count,Total Pages\n']
     for line in Lines[1:]:
         line_list = line.split(',')

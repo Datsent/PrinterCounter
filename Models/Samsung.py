@@ -3,6 +3,9 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 def samsung(ip_adress):
+    '''
+    Get Data from Samsung printers by selenium.
+    '''
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
     WebDriver = webdriver.Chrome(options=options)
