@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72cdccb2-23c3-46d3-9989-6a670b60a6b2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/PrinterCounter.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Archive/Printers_2022-02-06.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Counter.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/PrinterCounter.py" beforeDir="false" afterPath="$PROJECT_DIR$/PrinterCounter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Printers.csv" beforeDir="false" afterPath="$PROJECT_DIR$/Printers.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Printers.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orig.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,6 +38,13 @@
       <option name="presentableId" value="Default" />
       <updated>1645624183218</updated>
     </task>
+    <task id="LOCAL‎00001" summary="Finished">
+      <created>1645624594007</created>
+      <option name="number" value="LOCAL‎00001" />
+      <option name="presentableId" value="LOCAL‎00001" />
+      <updated>1645624594007</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -64,5 +60,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Finished" />
+    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
   </component>
 </project>
