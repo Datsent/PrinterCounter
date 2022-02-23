@@ -10,7 +10,7 @@ def get_count(ip_adress, model):
         return Brother.brother(ip_adress)
     elif check_printer(model) == 'Epson':
         return Epson.epson(ip_adress)
-    elif check_printer(model) == 'Sumsung':
+    elif check_printer(model) == 'Samsung':
         return Samsung.samsung(ip_adress)
     else:
         tkinter.messagebox.showerror(title=None, message=f'No program for model {model}')

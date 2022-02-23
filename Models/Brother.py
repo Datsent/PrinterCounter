@@ -8,13 +8,14 @@ def brother(ip_adress):
     '''
     my_request = urllib.request.urlopen("http://%s/general/information.html?kind=item" % ip_adress)
     my_HTML = my_request.read().decode()
-    if 'Counter' in my_HTML:
+    if 'Counter' not in my_HTML:
+        return get_html_brother_pass(ip_adress)
+    else:
         x = my_HTML.find("Counter")
         y = my_HTML[x:].find("</dd>")
         count = my_HTML[x:x + y].split('</dt><dd>')[1]
         return count
-    else:
-        return get_html_brother_pass(ip_adress)
+
 
 def get_html_brother_pass(ip_adress):
     '''
@@ -34,5 +35,5 @@ def get_html_brother_pass(ip_adress):
     count = my_HTML[x:x + y].split('</dt><dd>')[1]
     return count
 if __name__ == "__main__":
-    print(brother('10.1.2.180'))
-    print(brother('10.1.2.101'))
+    print(brother('10.1.2.99'))
+    #print(brother('10.1.2.101'))

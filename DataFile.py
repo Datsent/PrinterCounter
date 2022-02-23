@@ -30,7 +30,7 @@ def create_new_data(Lines):
             line_list[8] = 'N/A\n'
             new_list.append(','.join(line_list))
         print(f'Finished Model: {line_list[1]}...')
-    file = open(os.path.join(sys.path[0], ARCHIVE_FILE_PATH, 'w'))
+    file = open(os.path.join(sys.path[0], ARCHIVE_FILE_PATH), 'w')
     file.write(''.join(new_list))
     file.close()
     file = open(os.path.join(sys.path[0], USE_FILE_PATH), 'w')

@@ -8,7 +8,7 @@ def samsung(ip_adress):
     '''
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
-    WebDriver = webdriver.Chrome(options=options)
+    WebDriver = webdriver.Chrome(options=options)  #options=options
     WebDriver.get("http://%s/sws/index.html" %ip_adress)
     time.sleep(5)
     WebDriver.find_element(By.ID, "Tab_Information").click()
