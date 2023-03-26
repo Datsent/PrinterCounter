@@ -1,6 +1,7 @@
 import os, sys
 from Utils import *
 from Counter import get_count
+#from PrinterCounter import send_err_mail
 
 def read_data (path):
     '''
@@ -26,6 +27,7 @@ def create_new_data(Lines):
             new_list.append(','.join(line_list))
         except BaseException:
             print(f"No connection with {line_list[3]}")
+            #send_err_mail(line_list[3], line_list[1])
             line_list[7] = '0'
             line_list[8] = 'N/A\n'
             new_list.append(','.join(line_list))
