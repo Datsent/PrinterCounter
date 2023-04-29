@@ -1,5 +1,1 @@
 # PrinterCounter
-
-hello
-qwe
-test
