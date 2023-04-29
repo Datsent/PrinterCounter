@@ -1,2 +1,2 @@
 # PrinterCounter
-dima datsent
+d
