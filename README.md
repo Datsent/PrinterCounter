@@ -1,1 +1,5 @@
 # PrinterCounter
+
+hello
+qwe
+test
