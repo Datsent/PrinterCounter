@@ -96,7 +96,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1682831714243</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL‎-00009" summary="Some DesCRIP">
+      <created>1682837335695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682837335695</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="Some DesCRIP">
+      <created>1682837843446</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682837843446</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,6 +128,7 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished" />
     <MESSAGE value="Some Des" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some Des" />
+    <MESSAGE value="Some DesCRIP" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some DesCRIP" />
   </component>
 </project>
