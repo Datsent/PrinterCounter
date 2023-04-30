@@ -1,2 +1,2 @@
 # PrinterCounter
-Script dasdasd 123azsdzxc
+My counting script for printers
