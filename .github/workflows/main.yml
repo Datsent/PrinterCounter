@@ -1,0 +1,26 @@
+name: Docker Image Ver
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: '0'
+    - name: Bump version
+      uses: anothrNick/github-tag-action@1.36.0
+      id: tag_last
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        WITH_V: true
+
+    - run: echo "The last tag is:${{ steps.tag_last.outputs.tag }}"
