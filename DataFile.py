@@ -1,7 +1,7 @@
 import os, sys
 from Utils import *
 from Counter import get_count
-#from PrinterCounter import send_err_mail
+'''Test Pipeline'''
 
 def read_data (path):
     '''
