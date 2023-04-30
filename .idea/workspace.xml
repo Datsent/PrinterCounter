@@ -110,7 +110,21 @@
       <option name="project" value="LOCAL‎" />
       <updated>1682837843446</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL‎-00011" summary="Some DesCRIP">
+      <created>1682838163339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682838163339</updated>
+    </task>
+    <task id="LOCAL‎-00012" summary="major">
+      <created>1682838674721</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682838674721</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -129,6 +143,7 @@
     <MESSAGE value="Finished" />
     <MESSAGE value="Some Des" />
     <MESSAGE value="Some DesCRIP" />
-    <option name="LAST_COMMIT_MESSAGE" value="Some DesCRIP" />
+    <MESSAGE value="major" />
+    <option name="LAST_COMMIT_MESSAGE" value="major" />
   </component>
 </project>
