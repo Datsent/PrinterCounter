@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72cdccb2-23c3-46d3-9989-6a670b60a6b2" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +29,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "last_opened_file_path": "C:/Users/dima/Desktop/PrinterCounter"
+    "last_opened_file_path": "C:/Users/dima/Desktop/Python Projects/PrinterCounter"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -81,7 +82,49 @@
       <option name="project" value="LOCAL‎" />
       <updated>1682771265891</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL‎-00007" summary="Some Des">
+      <created>1682831317937</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL‎-00007" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682831317937</updated>
+    </task>
+    <task id="LOCAL‎-00008" summary="Some Des">
+      <created>1682831714243</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL‎-00008" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682831714243</updated>
+    </task>
+    <task id="LOCAL‎-00009" summary="Some DesCRIP">
+      <created>1682837335695</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL‎-00009" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682837335695</updated>
+    </task>
+    <task id="LOCAL‎-00010" summary="Some DesCRIP">
+      <created>1682837843446</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL‎-00010" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682837843446</updated>
+    </task>
+    <task id="LOCAL‎-00011" summary="Some DesCRIP">
+      <created>1682838163339</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL‎-00011" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682838163339</updated>
+    </task>
+    <task id="LOCAL‎-00012" summary="major">
+      <created>1682838674721</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL‎-00012" />
+      <option name="project" value="LOCAL‎" />
+      <updated>1682838674721</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -98,6 +141,9 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="Finished" />
+    <MESSAGE value="Some Des" />
+    <MESSAGE value="Some DesCRIP" />
+    <MESSAGE value="major" />
+    <option name="LAST_COMMIT_MESSAGE" value="major" />
   </component>
 </project>
