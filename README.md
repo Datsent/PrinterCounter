@@ -1,2 +1,2 @@
 # PrinterCounter
-Script dasdasd
+Script dasdasd 123
