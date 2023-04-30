@@ -1,2 +1,2 @@
 # PrinterCounter
-Script for cout pages from printers
+Script for cout pages
