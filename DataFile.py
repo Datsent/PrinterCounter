@@ -1,7 +1,6 @@
 import os, sys
 from Utils import *
 from Counter import get_count
-'''Test Pipeline'''
 
 def read_data (path):
     '''
