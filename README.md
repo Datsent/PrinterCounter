@@ -1,2 +1,2 @@
 # PrinterCounter
-Dima
+Script for collect page count of printers
