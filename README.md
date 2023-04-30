@@ -1,5 +1,2 @@
 # PrinterCounter
-
-hello
-qwe
-test
+My counting script for printers
