@@ -62,6 +62,9 @@ pipeline{
                         bat 'xcopy Counter.py c:\\PrinterCounter\\  /Y'
                         bat 'xcopy DataFile.py c:\\PrinterCounter\\ /Y'
                         bat 'xcopy PrinterCounter.py c:\\PrinterCounter\\ /Y'
+                        bat 'xcopy c:\\PrinterCounter_temp\\Printers.csv c:\\PrinterCounter\\ /Y'
+                        bat 'rmdir c:\\PrinterCounter\\Archive /s /q'
+                        bat 'xcopy c:\\PrinterCounter_temp\\Archive c:\\PrinterCounter\\Archive\\ /E /Y'
                         bat 'rmdir c:\\PrinterCounter_temp\\ /s /q'
                         bat 'rmdir Archive\\ /s /q'
                     }
